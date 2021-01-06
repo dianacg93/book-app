@@ -1,38 +1,70 @@
+* {
+  color: #c765ad;
+}
+
+body {
+  border: 5px solid #7f64bc;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  font-weight: bold;
+  font-size: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navbar {
+  background-color: #f8c86f;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navtitle a{
+  margin: 0 50px;
+  font-size: 1.5em;
+}
+
+#navlinks {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  /* margin:  */
+}
+
+#book-container {
+  background-color: #f8c86f;
+  border: 5px solid #f29d7d;
   display: flex;
   flex-direction: column;
+  margin: 25px 15%;
+}
+
+.bookinfo {
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bookdesc {
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bookimg {
+  height: 150px;
+}
+
+#footer {
+  background-color: #f8c86f;
+  height: 40px;
+  width: auto;
+  display: flex;
+  justify-self: end;
+  align-self: end;
 }
