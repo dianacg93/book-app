@@ -1,6 +1,8 @@
 import '../App.css'
 
 const Book = (props) => {
+    console.log("props: ", props)
+    
     return (
         <div id="book-container">
             <h1>{props.book.title}</h1>
